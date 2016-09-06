@@ -1,0 +1,47 @@
+
+
+/* Portfolio - image zoom on hover */
+section#portfolio section.case header {
+    overflow: hidden;
+}
+
+section#portfolio section.case h1 {
+    z-index: 100;
+}
+
+section#portfolio section.case img {
+    max-width: 100%;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: -100;
+}
+
+section#portfolio section.case img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Blog - image zoom on hover */
+section#blog article.blogPost header {
+    overflow: hidden;
+}
+
+ssection#blog article.blogPost header h1 {
+    z-index: 100;
+}
+
+section#blog article.blogPost header img {
+    max-width: 100%;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: -100;
+}
+
+section#blog article.blogPost header img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

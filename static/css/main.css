@@ -1,0 +1,320 @@
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Passero+One);
+
+/* Global */
+body {
+    width: 100%;
+    background-color: #eee;
+    
+}
+
+#wrapper {
+    width: 70%;
+    margin: 0 auto 0 auto;
+
+    background-color: #FFFFFF;
+}
+
+/* Global - Mobile Devices */
+@media only screen and (max-width: 550px) {
+    #wrapper {
+        width: 100%;
+
+        background-color: #FFFFFF;
+    }
+}
+
+
+/* Top Section with Logo */
+header#top {
+    width: 100%;
+    float: left;
+}
+
+header#top section#brand {
+    padding-top: 30px;
+    width: 70%;
+    height: 50px;
+    float: left;
+    position: fixed;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 4px -2px #000000;
+
+    z-index: 1000;
+}
+
+header#top section#brand a.icon {
+    margin: 0 0 0 30px;
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+}
+
+header#top section#brand h1#logo {
+    margin: 0 auto 0 auto;
+    display: table;
+
+    font-family: 'Passero One', cursive;
+    font-size: 30px;
+
+}
+
+header#top section#brand h1#logo a {
+    color: #000000;
+}
+
+header#top section#brand .left {
+    float: left;
+    margin: -20px 0 0 0;
+}
+
+header#top section#brand .right {
+    float: right;
+    margin: -20px 30px 0 0;
+}
+
+/* Top Section with Logo - Mobile Devices */
+@media only screen and (max-width: 550px) {
+    header#top section#brand {
+        padding-top: 30px;
+        width: 100%;
+        height: 50px;
+        float: left;
+        position: fixed;
+        background-color: #FFFFFF;
+        box-shadow: 0 3px 4px -2px #000000;
+
+        z-index: 1000;
+    }
+    
+    header#top section#brand .left {
+        display: none;
+    }
+
+    header#top section#brand .right {
+        display: none;
+    }
+}
+
+/* Coloured Cover Section */
+header#top section#cover {
+    width: 100%;
+    float: left;
+
+    margin-top: 80px;
+
+    background-color: #009ece;
+}
+
+/* Main Menu */
+header#top section#cover nav#menu {
+    width: 100%;
+    float: left;
+}
+
+header#top section#cover nav#menu ul {
+    display: table;
+    margin: 0 auto 0 auto;
+}
+
+header#top section#cover nav#menu ul li {
+    display: inline;
+    float: left;
+
+    padding: 0 2px 0 2px;
+}
+
+header#top section#cover nav#menu ul li a {
+    display: block;
+    padding: 20px 100px 20px 100px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header#top section#cover nav#menu ul li a:hover, header#top section#cover nav#menu ul li a.selected:hover {
+    background-color: #FFFFFF;
+    color: #444;
+}
+
+header#top section#cover nav#menu ul li a.selected {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+header#top section#cover h1#headline {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: table;
+    margin: 80px auto 60px auto;
+    letter-spacing: 2px;
+    text-shadow: -1px -1px #000000;
+    color: #FFFFFF;
+}
+
+/* Main Menu - Mobile Devices */
+@media only screen and (max-width: 550px) {    
+    header#top section#cover h1#headline {
+        margin: 30px auto 20px auto;
+    }
+    header#top section#cover nav#menu ul li a {
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+/* Main Content Section */
+main#main {
+    margin-top: 80px;
+    width: 100%;
+    min-height: 300px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    
+    background-color: #FAFAFA;
+    padding: 0 1.6% 1.6% 1.6%;
+}
+
+main#main.nopadding {
+    padding: 0;
+}
+
+main#main.orange {
+    background-color: #FF5E5B;
+}
+
+/* Footer */
+footer#footer {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    
+    background-color: #111111;
+    color: #888;
+    padding: 80px 10% 30px 10%;
+    
+    position: relative;
+    z-index: 100;
+}
+
+footer#footer a {
+    color: #e5e767;
+}
+
+footer#footer mark {
+    background-color: #e5e767;
+    color: #000;
+   
+}
+
+/* Widgets Section*/
+footer#footer section#widgets {
+    width: 100%;
+    float: left;
+}
+
+/* Seperator */
+footer#footer hr {
+    border-color: #333;
+    float: left;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+/* Copyright and Links Section*/
+footer#footer section#bottom {
+    width: 100%;
+    float: left;
+}
+footer#footer section#bottom small#copyright {
+    float: left;
+    color: #888;
+    margin-top: 2px;
+}
+
+footer#footer section#bottom nav#smallMenu {
+    float: left;
+}
+
+footer#footer section#bottom nav#smallMenu ul {
+    margin: 0;
+}
+
+footer#footer section#bottom nav#smallMenu ul li {
+    display: inline;
+    float: left;
+    margin: 2px 0 0 30px;
+}
+
+footer#footer section#bottom nav#smallMenu ul li a {
+    text-decoration: none;
+    color: #888;
+}
+
+footer#footer section#bottom nav#smallMenu ul li a:hover,
+footer#footer section#bottom nav#smallMenu ul li a.selected {
+    color: #e5e767;
+    text-decoration: none;
+}
+
+footer#footer section#bottom nav#social {
+    float: right;
+    display: table-cell;
+}
+
+footer#footer nav#social ul {
+    float: left;
+
+    margin: 0;
+}
+
+footer#footer nav#social ul li {
+    display: inline;
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+footer#footer nav#social ul li a {
+    color: #888;
+    margin: 0;
+    font-size: 20px;
+}
+
+footer#footer nav#social ul li i:hover {
+    color: #e5e767;
+}
+
+/* Override Default Text Selection Colour */
+footer#footer ::selection {
+  background: yellow; /* WebKit/Blink Browsers */
+  color: #000;
+}
+
+footer#footer ::-moz-selection {
+  background: yellow; /* Gecko Browsers */
+  color: #000;
+}
+
+/* Back to top button */
+#back {
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+    background-color: #000000;
+    padding: 13px 15px 12px 15px;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    font-size: 20px;
+}
+
+#back a {
+    color: #FFFFFF;
+}

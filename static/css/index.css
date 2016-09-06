@@ -1,0 +1,20 @@
+/********************************************************
+ *           Imports the necessary stylesheets          *
+ ********************************************************/
+                                /* PRE-STYLE            */
+@import url("reset.css");       /* CSS Reset            */
+@import url("effects.css");     /* Effects              */
+@import url("text.css");        /* Default Text Styles  */
+@import url("grid.css");        /* Grid System          */
+                                /*                      */
+                                /* PAGE STYLES          */
+@import url("main.css");        /* Main Shared Styles   */
+@import url("home.css");        /* Home                 */
+@import url("blog.css");        /* Blog                 */
+@import url("portfolio.css");   /* Portfolio            */
+@import url("services.css");    /* Services             */
+@import url("contact.css");     /* Contact              */
+                                /*                      */
+                                /* OTHER                */
+@import url("application.css"); /* Custom Styles        */
+                                /************************/
